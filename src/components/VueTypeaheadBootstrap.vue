@@ -241,7 +241,7 @@ export default {
     },
 
     runFocusOut(tgt) {
-      if (tgt && tgt.classList.contains('vbst-item')) {
+      if (tgt && tgt.classlist && tgt.classList.contains('vbst-item')) {
         return
       }
       this.isFocused = false
