@@ -34,7 +34,7 @@
     "test:debug": "echo '\n\n\n\n*******\n*****************\nlaunch chrome://inspect!!!!!!\n****************\n******\n\n\n\n\n';sleep 5;node --inspect ./node_modules/@vue/cli-service/bin/vue-cli-service.js test:unit --runInBand --no-cache --watch"
   },
   "dependencies": {
-    "lodash": "^4.17.20",
+    "lodash-es": "^4.17.21",
     "resize-observer-polyfill": "^1.5.0",
     "vue": "^2.5.17"
   },
